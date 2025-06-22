@@ -1,22 +1,113 @@
 *{
-    padding:0;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.Form{
+.parent{
     display: flex;
     justify-content: center;
-    margin-top: 150px; 
-    
-}
-
-.content{
-    height: 350px;
-    width: 350px;
-    background-color: aliceblue;
-    text-align: center;
+    margin-top: 50px;
+    gap: 60px;
 }
 .child1{
-    
-   
+    position: relative;
+  width: 530px;
+  height: 700px;
+  background: url('9105f5f6142ec1f4f7d2cd91ac82b551868f55d7.png') no-repeat center center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.foreground{
+  margin-top: 30px;  
+  margin-left: 40px;
+  height: 40px;
+}
+.logo{
+   margin-bottom: 11px;
+}
+.heading{
+  margin-top: 250px;
+  height: 140px;
+  margin-left: 40px;
 } 
+.heading2{
+    margin-top: 20px;
+    margin-left:40px;
+    height: 50px;
+    width: 325px;
+}
+
+.child2{
+    margin-top: 90px;
+    margin-bottom: 50px;
+    height: 580px;
+    width: 350px;
+    background-color: white; 
+}
+.heading3{
+    text-align: center;
+}
+.Google{
+    margin-top: 27px;
+    cursor: pointer;
+    width: 350px;
+    height: 40px;   
+    border:1px solid black;
+    border-radius: 11px;
+}
+.name{
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+#name{
+    width: 350px;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    border:1px solid black;
+}
+.email{
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+#Email{
+    font-family: sans-serif;
+    width: 350px;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 8px;
+    border:1px solid black;
+}
+.password{
+ margin-top: 20px;   
+}
+#Password{
+    width: 350px;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 8px;   
+    border:1px solid black;
+}
+.click{
+    margin-top:40px ;
+    height: 40px;
+    width: 200px;
+    background-color: #EB5017;
+    border-radius: 8px;
+    font-size: larger;
+    color: #2f1e18;
+    border:1px solid black;   
+}
+.button1{
+    text-align: center;
+}
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.nav,a{
+    color: #EB5017;
+}
